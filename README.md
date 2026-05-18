@@ -112,9 +112,6 @@ npm run dev
 
 ## 📈 Featured Projects
 
-### 🩺 MediIntel
-
-AI-powered symptom checker and virtual health assistant using Machine Learning.
 
 ### 🐔 Poultry Disease Classification
 
