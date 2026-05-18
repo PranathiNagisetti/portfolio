@@ -27,26 +27,36 @@ function Projects() {
             >
 
               <div
-                className="cursor-pointer bg-black border border-zinc-800 rounded-3xl overflow-hidden hover:border-cyan-400 transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_40px_rgba(34,211,238,0.3)] h-full"
+                className="group bg-black border border-zinc-800 rounded-3xl overflow-hidden hover:border-cyan-400 transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_40px_rgba(34,211,238,0.3)] h-full flex flex-col"
               >
 
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="h-56 w-full object-cover"
-                />
+                {/* IMAGE */}
 
-                <div className="p-8">
+                <div className="overflow-hidden">
+
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="h-56 w-full object-cover group-hover:scale-105 transition duration-500"
+                  />
+
+                </div>
+
+                {/* CONTENT */}
+
+                <div className="p-8 flex flex-col flex-grow">
 
                   <h3 className="text-2xl font-bold text-white mb-4">
                     {project.title}
                   </h3>
 
-                  <p className="text-zinc-400 leading-relaxed mb-6">
+                  <p className="text-zinc-400 leading-relaxed mb-6 flex-grow">
                     {project.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-3">
+                  {/* TECH STACK */}
+
+                  <div className="flex flex-wrap gap-3 mb-8">
 
                     {project.tech.map((tech) => (
 
@@ -60,6 +70,14 @@ function Projects() {
                     ))}
 
                   </div>
+
+                  {/* VIEW BUTTON */}
+
+                  <button
+                    className="w-full bg-cyan-400 text-black py-3 rounded-2xl font-semibold hover:scale-105 transition"
+                  >
+                    View Project
+                  </button>
 
                 </div>
 
