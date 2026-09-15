@@ -7,6 +7,7 @@ import smartcoder from "../assets/certifications/smartcoder.png"
 import python from "../assets/certifications/python.png"
 import mentor from "../assets/certifications/mentor.png"
 import codess from "../assets/certifications/codess.png"
+import myntra from"../assets/certifications/myntra.jpg"
 const certifications = [
 
   {
@@ -45,6 +46,10 @@ const certifications = [
     title: "Codess Cafe Mentee",
     image: codess,
   },
+  {
+    title: "Myntra We-For-She",
+    image: myntra,
+  }
 ]
 
 function Certifications() {

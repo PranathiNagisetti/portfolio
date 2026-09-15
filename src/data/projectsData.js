@@ -11,12 +11,12 @@ const projects = [
     {
   id: "MockMate",
 
-  title: "MockMate.ai",
+  title: "MockMate-Ai",
 
   image: mockmate,
 
   description:
-    "AI-powered mock interview preparation platform.",
+    "AI-powered interview preparation and assessment platform.",
 
   fullDescription:
     "MockMate.ai is a full-stack AI-driven mock interview platform designed to simulate real-world technical interviews. The system generates dynamic role-based interview questions using the Gemini API and evaluates user responses through an NLP-based rubric scoring engine. It supports both text-based and voice-based interview modes, performance analytics, secure JWT authentication, and scalable MongoDB data storage for interview session tracking.",
