@@ -9,6 +9,46 @@ import instainvites from "../assets/projects/instainvites.png"
 const projects = [
 
     {
+  id: "MockMate",
+
+  title: "MockMate.ai",
+
+  image: mockmate,
+
+  description:
+    "AI-powered mock interview preparation platform.",
+
+  fullDescription:
+    "MockMate.ai is a full-stack AI-driven mock interview platform designed to simulate real-world technical interviews. The system generates dynamic role-based interview questions using the Gemini API and evaluates user responses through an NLP-based rubric scoring engine. It supports both text-based and voice-based interview modes, performance analytics, secure JWT authentication, and scalable MongoDB data storage for interview session tracking.",
+
+  tech: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Gemini API",
+    "NLP",
+    "Speech-to-Text"
+  ],
+
+  github: "https://github.com/PranathiNagisetti/MockMate-AI",
+
+  demo: "https://your-demo-link.com",
+
+  features: [
+    "AI-generated interview questions",
+    "Role-based interview simulation",
+    "Voice-based interview mode",
+    "Text-based interview mode",
+    "NLP rubric scoring system",
+    "Performance analytics dashboard",
+    "JWT authentication",
+    "Session tracking and history"
+  ]
+},
+
+    {
     id: "poultry-detect",
 
     title: "Poultry Detect",
@@ -195,45 +235,7 @@ const projects = [
     ]
   },
 
-  {
-  id: "MockMate",
 
-  title: "MockMate.ai",
-
-  image: mockmate,
-
-  description:
-    "AI-powered mock interview preparation platform.",
-
-  fullDescription:
-    "MockMate.ai is a full-stack AI-driven mock interview platform designed to simulate real-world technical interviews. The system generates dynamic role-based interview questions using the Gemini API and evaluates user responses through an NLP-based rubric scoring engine. It supports both text-based and voice-based interview modes, performance analytics, secure JWT authentication, and scalable MongoDB data storage for interview session tracking.",
-
-  tech: [
-    "React.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "JWT",
-    "Gemini API",
-    "NLP",
-    "Speech-to-Text"
-  ],
-
-  github: "https://github.com/PranathiNagisetti/MockMate-AI",
-
-  demo: "https://your-demo-link.com",
-
-  features: [
-    "AI-generated interview questions",
-    "Role-based interview simulation",
-    "Voice-based interview mode",
-    "Text-based interview mode",
-    "NLP rubric scoring system",
-    "Performance analytics dashboard",
-    "JWT authentication",
-    "Session tracking and history"
-  ]
-},
 
 ]
 
