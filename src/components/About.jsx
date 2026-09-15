@@ -20,7 +20,7 @@ function About() {
         </h2>
 
         <p className="text-zinc-400 text-lg leading-relaxed">
-          I’m Pranathi Nagisetti, a third-year Computer Science Engineering
+          I’m Pranathi Nagisetti, a final-year Computer Science Engineering
           student at Shri Vishnu Engineering College for Women with a strong
           passion for problem solving, Machine Learning, and Full Stack
           Development.

@@ -8,8 +8,14 @@ import python from "../assets/certifications/python.png"
 import mentor from "../assets/certifications/mentor.png"
 import codess from "../assets/certifications/codess.png"
 import myntra from"../assets/certifications/myntra.jpg"
+import apsch2 from "../assets/certifications/apsch2.jpeg"
+import codeher from "../assets/certifications/codeher.jpeg"
 const certifications = [
 
+  {
+    title: "Artificial Intelligence & Machine Learning",
+    image: apsch2,
+  },
   {
     title: "Artificial Intelligence & Machine Learning",
     image: apsche,
@@ -45,6 +51,10 @@ const certifications = [
   {
     title: "Codess Cafe Mentee",
     image: codess,
+  },
+  {
+    title: "Code Her",
+    image: codeher,
   },
   {
     title: "Myntra We-For-She",
